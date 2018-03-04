@@ -1,0 +1,103 @@
+body {
+  background: #fff;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  outline: 0;
+}
+
+p > a {
+  text-decoration: underline;
+}
+
+.main {
+  box-shadow: 0px 20px 40px 10px rgba(0,0,0,0.5);
+  max-width: 1000px;
+  height: 1015px;
+  background-color: #b9b9b9;
+  margin: auto;
+  color: #fff;
+}
+
+.header {
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  max-width: 980px;
+  background-color: #2d2d2d;
+  color: #fff;
+  border-radius: 3px 3px 2px 2px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.navi {
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  max-width: 980px;
+  background-color: #333c;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+
+.navi > div {
+  justify-self: center;
+}
+
+.content {
+  margin: auto;
+  max-width: 1000px;
+  height: 894px;
+  background-image: url('./background.png');
+  border-radius: 0 0 3px 3px;
+  display: grid;
+  grid-template-columns: 1fr 18fr 1fr;
+  grid-template-rows: 1fr 18fr 1fr;
+  line-height: 1.5;
+}
+
+.content-text {
+  display: none;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  background-color: #000;
+  opacity: 0.8;
+  color: #fff;
+  overflow-y : auto;
+  padding: 10px 20px 10px 20px;
+}
+
+.content-text-header {
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.content-text-header > h1 {
+  text-align: center;
+}
+
+.content-text > h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.content-text > h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
